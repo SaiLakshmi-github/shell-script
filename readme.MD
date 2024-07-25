@@ -4,9 +4,10 @@
 *steps
 ----
 create a github account
-create a new repo with unique name
-create a folder  called repos in any path Ex: /c/documents/shell-scipt/repos
-login to gitbash
+
+*create a new repo with unique name
+*create a folder  called repos in any path Ex: /c/documents/shell-scipt/repos
+*login to gitbash
 go to path where you created repos
 clone git using command git clone <https url>
 ls -la >> to check if git is cloned

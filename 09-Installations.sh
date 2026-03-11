@@ -31,3 +31,4 @@ else
     echo "Installation of GIT is successful"
 
 fi
+

@@ -11,4 +11,14 @@ else
     echo "$2 is SUCCESS"
 fi
 }
+if [ $USERID -ne 0 ]
+then    
+    echo "Please run the script with superuser"
+    exit 1
+else 
+    echo "You are superuser"
+fi
+
+dnf install mysql -y
+VALIDATE $? "Installing mysql"
 

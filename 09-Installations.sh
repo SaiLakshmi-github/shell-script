@@ -11,7 +11,6 @@ else
 fi
 
 dnf install mysql -y
-exit 1 #Manually exit if there is an error
 
 if [ $? -ne 0 ]
 then 
@@ -23,12 +22,12 @@ else
 fi
 
 dnf install git  -y
-exit 1 #Manually exit if there is an error
 
 if [ $? -ne 0 ]
 then 
     echo "Installation of Git is Failed"
+    exit 1
 else 
     echo "Installation of GIT is successful"
-exit 1
+
 fi

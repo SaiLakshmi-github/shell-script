@@ -1,6 +1,6 @@
 #!/bin/bash
 
-if $(id -u -ne 0)
+if $(id -u)
 then    
     echo "Please run the script with superuser"
 else 
